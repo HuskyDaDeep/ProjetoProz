@@ -1,30 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Métodos de Invasão</title>
-<link rel="stylesheet" href="styles.css"></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Invasão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+
 <header>
-<nav>
-<a href="index.html">Home</a>
-<a href="metodos.html">Métodos</a>
-<a href="ferramentas.html">Ferramentas</a>
-<a href="protecao.html">Proteção</a>
-<a href="casos.html">Casos</a>
-</nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="metodos.html">Métodos</a>
+        <a href="ferramentas.html">Ferramentas</a>
+        <a href="protecao.html">Proteção</a>
+        <a href="casos.html">Casos</a>
+    </nav>
 </header>
-<section>
-<h2>Métodos de Invasão</h2>
-<p><strong>Scanning:</strong> Mapeamento de portas e serviços ativos.</p>
-<p><strong>SQL Injection:</strong> Injeção de comandos SQL maliciosos.</p>
-<p><strong>XSS:</strong> Execução de scripts em navegadores.</p>
-<p><strong>Engenharia Social:</strong> Manipulação psicológica.</p>
-<p><strong>Força Bruta:</strong> Tentativas repetidas de senha.</p>
-<p><strong>Phishing:</strong> Golpes por e-mail ou mensagens.</p>
-<p><strong>Ransomware:</strong> Sequestro de dados.</p>
-<p><strong>Ataques a APIs:</strong> Exploração de APIs mal configuradas.</p>
-<p><strong>Vulnerabilidades CVE:</strong> Falhas conhecidas.</p>
-<p><strong>Exploits Automatizados:</strong> Ataques automáticos.</p>
+
+<div class="banner-M">
+    <h1>Métodos Utilizados</h1>
+    <p>
+        Esta página apresenta os principais métodos de invasão utilizados em ataques cibernéticos,
+        explicando como funcionam, quais riscos oferecem e por que representam uma ameaça
+        aos sistemas modernos.
+    </p>
+</div>
+
+<section class="metodos">
+    <h2>Métodos de Invasão</h2>
+
+    <details class="dropdown">
+        <summary>Scanning (Varredura)</summary>
+        <p>
+            O scanning é utilizado na fase de reconhecimento do ataque, onde o invasor identifica
+            portas abertas, serviços ativos e possíveis vulnerabilidades em um sistema.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> um atacante descobre que um servidor possui portas abertas
+            sem proteção adequada.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>SQL Injection</summary>
+        <p>
+            A SQL Injection ocorre quando dados não são validados corretamente, permitindo a
+            execução de comandos SQL maliciosos no banco de dados.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> um invasor consegue acessar o sistema inserindo comandos
+            SQL em um formulário de login.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>XSS (Cross-Site Scripting)</summary>
+        <p>
+            O XSS permite a execução de scripts maliciosos no navegador de outros usuários,
+            explorando falhas na validação de dados.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> um comentário malicioso rouba cookies de sessão.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Engenharia Social</summary>
+        <p>
+            Explora o fator humano, utilizando manipulação psicológica para obter informações
+            confidenciais.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> um golpista se passa por suporte técnico e solicita a senha.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Força Bruta</summary>
+        <p>
+            Consiste em testar automaticamente diversas combinações de senha até encontrar a correta.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> um script tenta milhares de senhas em um login.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Phishing</summary>
+        <p>
+            Golpe que utiliza mensagens falsas para enganar usuários e roubar dados sensíveis.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> e-mail falso do banco pedindo confirmação de dados.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Ransomware</summary>
+        <p>
+            Malware que criptografa os dados da vítima e exige pagamento para liberação.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> empresa perde acesso aos arquivos após abrir anexo malicioso.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Ataques a APIs</summary>
+        <p>
+            Exploram falhas de autenticação ou autorização em APIs mal configuradas.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> acesso a dados de usuários apenas alterando o ID na URL.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Vulnerabilidades CVE</summary>
+        <p>
+            Falhas de segurança conhecidas e documentadas publicamente em softwares.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> sistema desatualizado explorado por falha conhecida.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Exploits Automatizados</summary>
+        <p>
+            Utilizam scripts para explorar vulnerabilidades de forma rápida e em larga escala.
+        </p>
+        <p>
+            <strong>Exemplo:</strong> ataque automático em centenas de servidores.
+        </p>
+    </details>
 </section>
+
+
+
 </body>
 </html>

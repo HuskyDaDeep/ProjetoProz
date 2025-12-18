@@ -1,24 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><title>Casos Reais</title>
-<link rel="stylesheet" href="styles.css"></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Casos Reais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
+
 <header>
-<nav>
-<a href="index.html">Home</a>
-<a href="metodos.html">Métodos</a>
-<a href="ferramentas.html">Ferramentas</a>
-<a href="protecao.html">Proteção</a>
-<a href="casos.html">Casos</a>
-</nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="metodos.html">Métodos</a>
+        <a href="ferramentas.html">Ferramentas</a>
+        <a href="protecao.html">Proteção</a>
+        <a href="casos.html">Casos</a>
+    </nav>
 </header>
+<div class="banner-C">
+<h1>Como Hackers Invadem Sistemas</h1>
+<p>Um site educativo que explica ataques cibernéticos, ferramentas usadas por hackers e como proteger sistemas modernos.</p>
+</div>
+
 <section>
-<h2>Ataque WannaCry (2017)</h2>
-<p><strong>O que aconteceu:</strong> Ransomware se espalhou mundialmente.</p>
-<p><strong>Falha explorada:</strong> SMB no Windows.</p>
-<p><strong>Impacto:</strong> Hospitais e empresas afetadas.</p>
-<p><strong>Prevenção:</strong> Atualizações e backups.</p>
+    <h2>Ataque WannaCry (2017)</h2>
+
+    <p>
+        <strong>O que aconteceu:</strong><br>
+        O WannaCry foi um ataque de ransomware que se espalhou rapidamente pelo mundo em maio de 2017,
+        explorando uma falha crítica em sistemas Windows. O malware se propagava automaticamente
+        entre computadores conectados à rede, sem a necessidade de interação do usuário.
+    </p>
+
+    <p>
+        Após infectar o sistema, o WannaCry criptografava os arquivos da vítima e exigia o pagamento
+        de um resgate em Bitcoin para que os dados fossem liberados. O ataque atingiu mais de
+        150 países em poucas horas.
+    </p>
+
+    <p>
+        <strong>Falha explorada:</strong><br>
+        A vulnerabilidade explorada foi uma falha no protocolo SMB (Server Message Block) do Windows,
+        conhecida como <em>EternalBlue</em>. Essa falha permitia a execução remota de código,
+        possibilitando que o ransomware se espalhasse automaticamente entre máquinas vulneráveis.
+    </p>
+
+    <p>
+        Muitos sistemas afetados utilizavam versões desatualizadas do Windows ou não haviam aplicado
+        as correções de segurança disponibilizadas anteriormente pela Microsoft.
+    </p>
+
+    <p>
+        <strong>Impacto:</strong><br>
+        O ataque causou grandes prejuízos financeiros e operacionais. Hospitais tiveram atendimentos
+        interrompidos, empresas ficaram sem acesso a sistemas críticos e serviços públicos foram
+        afetados.
+    </p>
+
+    <p>
+        Estima-se que os prejuízos globais tenham alcançado bilhões de dólares, além de colocar em
+        risco a segurança de dados sensíveis e a continuidade de serviços essenciais.
+    </p>
+
+    <p>
+        <strong>Como poderia ter sido evitado:</strong><br>
+        A aplicação de atualizações de segurança, o uso de backups frequentes e políticas adequadas
+        de gestão de patches teriam reduzido significativamente o impacto do ataque.
+    </p>
+
+    <p>
+        Além disso, a segmentação de redes, o bloqueio de portas desnecessárias e a conscientização
+        dos usuários são medidas fundamentais para prevenir ataques semelhantes.
+    </p>
+
+    <p>
+        <strong>Saiba mais:</strong><br>
+        Para uma explicação mais detalhada sobre o ataque WannaCry, consulte o artigo abaixo:
+        <br>
+        <a href="https://www.kaspersky.com.br/resource-center/threats/ransomware-wannacry"
+           target="_blank"
+           style="color:#38bdf8;">
+            Artigo completo sobre o WannaCry — Kaspersky
+        </a>
+    </p>
+
+    <p style="font-size: 0.9rem; color: #94a3b8;">
+        Créditos do conteúdo externo: Kaspersky Lab – empresa especializada em segurança da informação.
+    </p>
 </section>
+
 </body>
 </html>

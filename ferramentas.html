@@ -1,27 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><title>Ferramentas</title>
-<link rel="stylesheet" href="styles.css"></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Ferramentas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+
 <header>
-<nav>
-<a href="index.html">Home</a>
-<a href="metodos.html">Métodos</a>
-<a href="ferramentas.html">Ferramentas</a>
-<a href="protecao.html">Proteção</a>
-<a href="casos.html">Casos</a>
-</nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="metodos.html">Métodos</a>
+        <a href="ferramentas.html">Ferramentas</a>
+        <a href="protecao.html">Proteção</a>
+        <a href="casos.html">Casos</a>
+    </nav>
 </header>
-<section>
-<h2>Ferramentas Usadas por Hackers</h2>
-<ul>
-<li><strong>Nmap:</strong> Varredura de portas</li>
-<li><strong>Burp Suite:</strong> Testes web</li>
-<li><strong>Metasploit:</strong> Exploração</li>
-<li><strong>Kali Linux:</strong> Sistema de testes</li>
-<li><strong>Wireshark:</strong> Análise de tráfego</li>
-<li><strong>Hydra:</strong> Força bruta</li>
-</ul>
+
+<section class="metodos">
+    <h2>Ferramentas Usadas por Hackers</h2>
+
+    <details class="dropdown">
+        <summary>Nmap</summary>
+        <p>
+            O Nmap é uma ferramenta utilizada para realizar varredura de portas e identificar
+            serviços ativos em um sistema ou rede.
+        </p>
+        <p>
+            Ele auxilia o atacante a descobrir possíveis pontos de entrada no sistema.
+        </p>
+        <p>
+            <strong>Defesa:</strong> uso de firewalls, limitação de portas abertas e monitoramento
+            de tráfego.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Burp Suite</summary>
+        <p>
+            O Burp Suite é utilizado para testes de segurança em aplicações web, permitindo
+            interceptar e analisar requisições HTTP.
+        </p>
+        <p>
+            Ele ajuda a identificar falhas como SQL Injection e XSS durante ataques web.
+        </p>
+        <p>
+            <strong>Defesa:</strong> validação de dados no back-end e uso de práticas seguras
+            de desenvolvimento.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Metasploit</summary>
+        <p>
+            O Metasploit é uma plataforma usada para explorar vulnerabilidades conhecidas
+            em sistemas e aplicações.
+        </p>
+        <p>
+            Ele automatiza ataques utilizando exploits já prontos, facilitando a invasão.
+        </p>
+        <p>
+            <strong>Defesa:</strong> manter sistemas atualizados e aplicar correções de segurança.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Kali Linux</summary>
+        <p>
+            O Kali Linux é um sistema operacional focado em testes de penetração e análise
+            de segurança.
+        </p>
+        <p>
+            Ele reúne diversas ferramentas que auxiliam ataques e auditorias de segurança.
+        </p>
+        <p>
+            <strong>Defesa:</strong> restringir acesso físico e monitorar uso indevido.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Wireshark</summary>
+        <p>
+            O Wireshark é utilizado para capturar e analisar pacotes de dados que trafegam
+            em uma rede.
+        </p>
+        <p>
+            Ele permite identificar informações sensíveis transmitidas sem criptografia.
+        </p>
+        <p>
+            <strong>Defesa:</strong> uso de criptografia e redes seguras.
+        </p>
+    </details>
+
+    <details class="dropdown">
+        <summary>Hydra</summary>
+        <p>
+            O Hydra é uma ferramenta usada para realizar ataques de força bruta em sistemas
+            que exigem autenticação.
+        </p>
+        <p>
+            Ele testa automaticamente várias combinações de usuários e senhas.
+        </p>
+        <p>
+            <strong>Defesa:</strong> autenticação multifator e bloqueio por tentativas excessivas.
+        </p>
+    </details>
+
 </section>
+
 </body>
 </html>

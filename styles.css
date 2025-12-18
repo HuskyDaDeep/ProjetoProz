@@ -3,9 +3,79 @@ header{background:linear-gradient(135deg,#020617,#1e293b);padding:20px}
 nav{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:auto}
 nav a{color:#7dd3fc;text-decoration:none;margin:0 10px;font-weight:bold}
 nav a:hover{text-decoration:underline}
-.hero{text-align:center;padding:80px 20px}
+.hero{text-align:center;padding:80px 20px; background: url(Assets/sl_031420_28950_10.jpg); background-size: cover;}
+.banner-M{text-align:center;padding:80px 20px; background: url(Assets/image.jpg); background-size: cover;}
+.banner-P{text-align:center;padding:80px 20px; background: url(Assets/hacker-trabalhando-em-sistema-de-computador-com-varias-telas.jpg); background-size: cover;}
+.banner-C{text-align:center;padding:80px 20px; background: url(Assets/hackers-no-armazem-abandonado-escuro-usando-tecnica-de-phishing-que-engana-os-usuarios-em-revelar-informacoes-sensiveis-desenvolvedores-desonestos-roubando-senhas-de-sistemas-de-baixa-seguranca-dol.jpg); background-size: cover;}
+.banner-M{text-align:center;padding:80px 20px; background: url(Assets/image.jpg); background-size: cover;}
 .hero h1{font-size:2.6rem;margin-bottom:10px}
 .hero p{max-width:700px;margin:auto;color:#cbd5f5}
 section{max-width:1100px;margin:auto;padding:60px 20px}
 h2{color:#38bdf8;border-bottom:2px solid #1e293b;padding-bottom:10px}
 footer{background:#020617;text-align:center;padding:20px; color:#94a3b8}
+h3{color:#38bdf8;border-bottom:1px solid #1e293b;padding-bottom:5px}
+.metodos {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Card do dropdown */
+.dropdown {
+    background: #020617;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    border-left: 6px solid #38bdf8;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover {
+    transform: translateY(-3px);
+}
+
+/* Título clicável */
+.dropdown summary {
+    padding: 18px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    color: #7dd3fc;
+    position: relative;
+    background: linear-gradient(135deg, #020617, #020617);
+}
+
+/* Remove a setinha padrão */
+.dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Ícone customizado */
+.dropdown summary::after {
+    content: "▾";
+    position: absolute;
+    right: 22px;
+    font-size: 20px;
+    color: #38bdf8;
+    transition: transform 0.3s ease;
+}
+
+/* Rotação quando abre */
+.dropdown[open] summary::after {
+    transform: rotate(180deg);
+}
+
+/* Conteúdo interno */
+.dropdown p {
+    padding: 0 22px 18px 22px;
+    color: #e5e7eb;
+    line-height: 1.7;
+    border-top: 1px solid #1e293b;
+}
+
+/* Efeito hover no título */
+.dropdown summary:hover {
+    background-color: #020617;
+}
